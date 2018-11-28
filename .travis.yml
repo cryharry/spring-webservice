@@ -1,10 +1,8 @@
 language: java
-
-before-install:
- - chmod +x gradlew
-
 jdk:
   - openjdk8
+before-install:
+ - chmod +x gradlew
 
 branches:
   only:
